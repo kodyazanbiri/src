@@ -1,4 +1,4 @@
-package Recursion;//FACTORÝAL METODUYLA FAKTÖRÝYEL HESAPLAMA:(recursion(özyinelemeli metodlar))
+package Recursion;//FACTORï¿½AL METODUYLA FAKTï¿½Rï¿½YEL HESAPLAMA:(recursion(ï¿½zyinelemeli metodlar))
 
 public class Sample3 {
 
@@ -6,19 +6,20 @@ public class Sample3 {
 		
 		int total=factorial(5);
 		System.out.println(total);
+		System.out.println("merhaba");
 
 	}
 	public static int factorial(int n) {
 		if(n==0)
 			return 1;
 		else
-			return n*factorial(n-1); //RECURSION metodu=fonksiyon kendi içinde sürekli çaðýrýlýr
+			return n*factorial(n-1); //RECURSION metodu=fonksiyon kendi iï¿½inde sï¿½rekli ï¿½aï¿½ï¿½rï¿½lï¿½r
 	}
 
 }
-//NOT:Faktöriyel Hesaplamak için while ve for döngüsüyle yapýmý:
+//NOT:Faktï¿½riyel Hesaplamak iï¿½in while ve for dï¿½ngï¿½sï¿½yle yapï¿½mï¿½:
 
-/*WHÝLE ile yapýmý---------------
+/*WHï¿½LE ile yapï¿½mï¿½---------------
  * 
 int i=5;
 int sonuc=1;
@@ -31,7 +32,7 @@ System.out.println(sonuc);	*/
 
 
 
-/*FOR ile yapýmý-----------------
+/*FOR ile yapï¿½mï¿½-----------------
  * 
  * public static void main(String[] args) {
 

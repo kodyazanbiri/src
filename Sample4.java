@@ -1,7 +1,6 @@
-package Recursion; //bu örnekte 2!=2 olduðunu biliyoruz ve bizden faktöriyel hesabý yapmammýzý istiyor
+package Recursion;    //bu ï¿½rnekte 2!=2 olduï¿½unu biliyoruz ve bizden faktï¿½riyel hesabï¿½ yapmammï¿½zï¿½ istiyor
 
 import java.util.Scanner;
-
 public class Sample4 {
 
 	public static void main(String[] args) {
@@ -14,7 +13,7 @@ public class Sample4 {
 			int total = factorial(number);
 			System.out.println(total);
 		} else
-			System.out.println("sayýnýz ikiden küçük");
+			System.out.println("sayï¿½nï¿½z ikiden kï¿½ï¿½ï¿½k");
 
 	}
 
